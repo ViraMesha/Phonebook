@@ -23,7 +23,7 @@ export const FormInput = styled.input`
 
   &:hover,
   &:focus {
-    border-color: #3d9cff;
+    border-color: #654ea3;
   }
   &:focus {
     box-shadow: 0px 10px 20px -13px rgb(32 56 117 / 35%);

@@ -16,7 +16,7 @@ const Contacts = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <div style={{ maxWidth: '450px', margin: '0 auto' }}>
       {isLoading && !error && <b>Request in progress...</b>}
       <h1>Phonebook</h1>
       <ContactForm />

@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import { Toaster } from 'react-hot-toast';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { AppBar } from './AppBar/AppBar';
 import { Suspense } from 'react';
 import { Container } from './Container/Container';
@@ -11,7 +12,7 @@ export const Layout = () => {
       <Suspense fallback={null}>
         <Outlet />
       </Suspense>
-      <Toaster position="top-right" reverseOrder={false} />
+      <ToastContainer autoClose={2000} pauseOnHover />
     </Container>
   );
 };

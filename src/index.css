@@ -10,6 +10,7 @@ body {
   font-size: 16px;
   padding: 0px 15px;
   background-color: #f6f7fc;
+  color: #212121;
 }
 
 code {
@@ -31,4 +32,14 @@ ul,
 ol {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
 }

@@ -5,8 +5,7 @@ export const ContactsList = styled.ul`
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 300px;
+  width: 323px;
   gap: 10px;
-  padding: 15px;
   border-radius: 5px;
 `;

@@ -19,15 +19,21 @@ export const ContactList = () => {
   const filteredContacts = getFilteredContacts();
 
   return (
-    <ContactsList>
-      {filteredContacts.map(({ id, name, number }) => (
-        <ContactListItem
-          key={id}
-          name={name}
-          number={number}
-          onDelete={() => dispatch(deleteContact(id))}
-        />
-      ))}
-    </ContactsList>
+    <>
+      {contacts.length > 0 ? (
+        <ContactsList>
+          {filteredContacts.map(({ id, name, number }) => (
+            <ContactListItem
+              key={id}
+              name={name}
+              number={number}
+              onDelete={() => dispatch(deleteContact(id))}
+            />
+          ))}
+        </ContactsList>
+      ) : (
+        <p> Your phonebook is empty. Please add a contact.</p>
+      )}
+    </>
   );
 };
