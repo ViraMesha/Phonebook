@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ViraMesha/Phonebook/static/css/main.6e5b4247.css",
-    "main.js": "/ViraMesha/Phonebook/static/js/main.ea794b69.js",
+    "main.js": "/ViraMesha/Phonebook/static/js/main.9e217a05.js",
     "static/js/266.894d8579.chunk.js": "/ViraMesha/Phonebook/static/js/266.894d8579.chunk.js",
     "static/js/575.4b394344.chunk.js": "/ViraMesha/Phonebook/static/js/575.4b394344.chunk.js",
     "static/js/503.50c4d124.chunk.js": "/ViraMesha/Phonebook/static/js/503.50c4d124.chunk.js",
@@ -12,7 +12,7 @@
     "static/media/PageNotFound.jpg": "/ViraMesha/Phonebook/static/media/PageNotFound.ecac531aefef280cbb27.jpg",
     "index.html": "/ViraMesha/Phonebook/index.html",
     "main.6e5b4247.css.map": "/ViraMesha/Phonebook/static/css/main.6e5b4247.css.map",
-    "main.ea794b69.js.map": "/ViraMesha/Phonebook/static/js/main.ea794b69.js.map",
+    "main.9e217a05.js.map": "/ViraMesha/Phonebook/static/js/main.9e217a05.js.map",
     "266.894d8579.chunk.js.map": "/ViraMesha/Phonebook/static/js/266.894d8579.chunk.js.map",
     "575.4b394344.chunk.js.map": "/ViraMesha/Phonebook/static/js/575.4b394344.chunk.js.map",
     "503.50c4d124.chunk.js.map": "/ViraMesha/Phonebook/static/js/503.50c4d124.chunk.js.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.6e5b4247.css",
-    "static/js/main.ea794b69.js"
+    "static/js/main.9e217a05.js"
   ]
 }
